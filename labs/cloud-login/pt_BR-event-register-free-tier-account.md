@@ -1,101 +1,101 @@
-# Beginnen
+# 開始
 
-## Einführung
+## 概要
 
-Zunächst benötigen Sie einen Oracle Cloud-Account. In dieser fünfminütigen Übung werden Sie durch die Schritte geführt, damit Sie einen Account im kostenlosen Oracle Cloud-Modus erhalten und diesen beitreten können.
+まず、Oracle Cloudアカウントが必要です。この5分間のラボでは、Oracle Cloud無料モードでのアカウントと、その参加方法をご紹介します。
 
-In diesem Video können Sie Ihren 30-tägigen kostenlosen Testaccount in Oracle Cloud erstellen.[](youtube:nClCXAfqvzs)
+このビデオを見て、Oracle Cloudで30日間の無料トライアル・アカウントを作成します。[](youtube:nClCXAfqvzs)
 
-### Vorhandene Cloudaccounts
+### 既存のクラウド・アカウント
 
-Wenn Sie bereits Zugriff auf einen Oracle Cloud-Account haben, einschließlich eines Oracle Cloud-Accounts, der [Oracle Universal Credits](https://docs.oracle.com/en/cloud/get-started/subscriptions-cloud/csgsg/universal-credits.html) verwendet, fahren Sie mit **PASSO 2** fort, um sich bei Ihrem Cloud-Mandanten anzumelden.
+[Oracle Universal Credits](https://docs.oracle.com/en/cloud/get-started/subscriptions-cloud/csgsg/universal-credits.html)を使用するOracle Cloudアカウントを含むOracle Cloudアカウントへのアクセス権がすでにある場合は、**PASSO 2**に進み、クラウド・テナンシにサインインします。
 
-### Zwei Cloud-On-One-Angebote
+### 2つのCloud-On-One製品
 
-Im kostenlosen Oracle Cloud-Modus können Sie sich für einen Oracle Cloud-Account registrieren, der eine Reihe von Services vom Typ "Immer kostenlos" und eine kostenlose Testversion mit einem Gratisguthaben von 300 US-Dollar für alle berechtigten Oracle Cloud-Services bis zu 30 Tage lang bietet. Services vom Typ "Immer kostenlos" sind unbegrenzt verfügbar. Kostenlose Testservices können verwendet werden, bis Ihr Guthaben in Höhe von 300 US-Dollar aufgebraucht ist oder 30 Tage verfallen, je nachdem, was zuerst eintritt.
+Oracle Cloud無料モードでは、Oracle Cloudアカウントにサインアップできます。Oracle Cloudアカウントでは、いくつかのAlways Freeサービスと、適格なすべてのOracle Cloudサービスで最大30日間使用できる300ドルの無料トライアルが提供されます。Always Freeサービスは無期限に利用できます。無料トライアル・サービスは、300ドルの無料クレジットが消費されるまで、または30日間の有効期限(いずれか早い方)まで使用できます。
 
-### Was Sie brauchen
+### 前提条件
 
-*   Eine gültige E-Mail-Adresse
-*   Möglichkeit, einen SMS-Verifizierungstext zu erhalten (nur wenn Ihre E-Mail nicht erkannt wird)
+*   有効な電子メール・アドレス
+*   SMS検証テキストを受信できる可能性(電子メールが認識されない場合のみ)
 
-## **SAVE 1**: Erstellen Sie Ihr kostenloses Testkonto
+## **SAVE 1**: 無料トライアル・アカウントの作成
 
-Wenn Sie bereits über einen Cloud-Account verfügen, fahren Sie mit **SOP 2** fort.
+クラウド・アカウントをすでにお持ちの場合は、**SOP 2**に進んでください。
 
-1.  Öffnen Sie einen Webbrowser, um auf das Oracle Cloud-Registrierungsformular unter [oracle.com/cloud/free](https://myservices.us.oraclecloud.com/mycloud/signup?language=pt_BR) zuzugreifen.
+1.  Webブラウザを開き、[oracle.com/cloud/free](https://myservices.us.oraclecloud.com/mycloud/signup?language=pt_BR)にあるOracleクラウド登録フォームにアクセスします。
     
-2.  Die Registrierungsseite wird für Sie angezeigt. ![](images/pt_BR-cloud-infrastructure.png " ")
+2.  登録ページが表示されます。 ![](images/pt_BR-cloud-infrastructure.png " ")
     
-3.  Geben Sie die folgenden Informationen ein, um Ihren Oracle Cloud Free Mode-Account zu erstellen.
+3.  次の情報を入力して、Oracle Cloud無料モード・アカウントを作成します。
     
-    *   Wählen Sie Ihr **Land** aus.
-    *   Geben Sie den **Namen** und die **E-Mail** ein.
-4.  Nachdem Sie eine gültige E-Mail-Adresse eingegeben haben, klicken Sie auf die Schaltfläche **Meine E-Mail-Adresse prüfen**. Daraufhin wird ein Dialogfeld **Spezielles Oracle-Angebot** angezeigt. Klicken Sie auf **Angebot auswählen**.
+    *   **「国」**を選択します
+    *   **「名前」**および**「電子メール」**を入力します。
+4.  有効な電子メール・アドレスを入力したら、**「電子メールの確認」**ボタンを選択します。**「特別なOracleオファー」**というダイアログ・ボックスが表示され、**「オファーの選択」**をクリックします。
     
     ![](images/pt_BR-offer.png " ")
     
-5.  Geben Sie die folgenden Informationen ein, um Ihren Oracle Cloud-Account im freien Modus zu erstellen. \* Wählen Sie Ihr **Kennwort** aus. \* Geben Sie Ihren **Firmennamen** ein. \* **Cloud-Accountname** wird automatisch basierend auf den eingegebenen Daten generiert, kann jedoch geändert werden. Denken Sie daran, dass Sie es wissen müssen, um dem Konto in Zukunft beizutreten. \* Wählen Sie **Hauptregion** aus. Ihre Hauptregion kann nach der Registrierung nicht geändert werden. Hinweis: Gemäß dem aktuellen Workshop-Design und der Featureverfügbarkeit wird empfohlen, die Region London derzeit nicht zu verwenden. \* Klicken Sie auf **Weiter**
+5.  Oracle Cloudフリー・モード・アカウントを作成するには、次の情報を入力します。\* **パスワード**を選択します\* **会社名**を入力します\* **クラウド・アカウント名**は、入力したデータに基づいて自動的に生成されますが、変更できます。選択したことを覚えておいてください。今後アカウントに参加するためには知っておく必要があります。\* **ホーム・リージョン**を選択してください。登録後はホーム・リージョンを変更できません。ノート: 現在のワークショップの設計および機能の可用性に従って、現時点ではロンドン・リージョンを使用しないことをお薦めします。\* **「続行」**をクリックします
     
     ![](images/pt_BR-account-info.png " ")
     
-6.  Geben Sie Ihre Adresse ein. Klicken Sie auf **Weiter**.
+6.  住所を入力します。**「Continue」**をクリックします。
     
     ![](images/pt_BR-free-tier-address.png " ")
     
-7.  Wählen Sie Ihr Land aus, und geben Sie Ihre Mobiltelefonnummer ein.
+7.  国を選択し、モバイル番号を入力します。
     
     ![](images/pt_BR-free-tier-address-2.png " ")
     
-8.  Prüfen und akzeptieren Sie den Begriff, indem Sie auf das Kontrollkästchen klicken. Klicken Sie auf die Schaltfläche **Meine kostenlose Testversion starten**.
+8.  チェック・ボックスをクリックして、用語をレビューして受け入れます。「**無料トライアルを開始**」ボタンをクリックします。
     
     ![](images/pt_BR-free-tier-agreement.png " ")
     
-9.  Ihr Account wird bereitgestellt und ist in wenigen Sekunden verfügbar. Sobald Sie fertig sind, gelangen Sie automatisch zur Anmeldeseite. Sie erhalten außerdem zwei E-Mails von Oracle. Benachrichtigung über Account-Provisioning. Die andere Benachrichtigung über die Beendigung des Prozesses. Nachfolgend finden Sie eine Kopie der endgültigen Benachrichtigung:
+9.  アカウントがプロビジョニングされており、数秒で利用可能になります。終了すると、自動的にサインイン・ページが表示されます。また、Oracleから2通の電子メールを受信します。アカウント・プロビジョニングの通知。プロセスの終了を通知するもう1つ。最終通知のコピーを次に示します。
     
     ![](images/pt_BR-account-provisioned.png " ")
     
 
-## **SAVE 2**: Auf Ihr Konto zugreifen
+## **保存2**: アカウントへのアクセス
 
-Wenn Sie sich bei Oracle Cloud abgemeldet haben, führen Sie die folgenden Schritte aus, um eine Verbindung herzustellen.
+Oracle Cloudからログアウトした場合は、次のステップに従って接続し直します。
 
-1.  Gehen Sie zu [cloud.oracle.com](https://cloud.oracle.com), und geben Sie Ihren Cloud-Accountnamen ein, und klicken Sie auf **Weiter**. Dies ist der Name, den Sie beim Erstellen Ihres Kontos zuvor ausgewählt haben. Dies ist NICHT Ihre E-Mail-Adresse. Wenn Sie diesen Namen vergessen haben, lesen Sie die Bestätigungs-E-Mail.
+1.  [cloud.oracle.com](https://cloud.oracle.com)に移動し、クラウド・アカウント名を入力して、**「次」**をクリックします。これは、以前にアカウントを作成したときに選択した名前です。これはあなたのメールアドレスではありません。その名前を忘れた場合は、確認の電子メールを確認してください。
     
     ![](images/pt_BR-cloud-oracle.png " ")
     
-2.  Klicken Sie auf den Pfeil unter _Direkte Anmeldung bei Oracle Cloud Infrastructure_, um die Felder einzublenden und anzuzeigen.
+2.  _「Oracle Cloud Infrastructure直接サインイン」_の下にある矢印をクリックして、フィールドを展開して表示します。
     
     ![](images/pt_BR-cloud-login-tenant.png " ")
     
-3.  Geben Sie Ihre Zugangsdaten für den Cloud-Account ein, und klicken Sie auf **Anmelden**. Ihr Benutzer ist Ihre E-Mail-Adresse. Das Kennwort ist das Kennwort, das Sie beim Erstellen des Accounts gewählt haben.
+3.  クラウド・アカウントの資格証明を入力し、**「サインイン」**をクリックします。あなたのユーザーはあなたのメールアドレスです。パスワードは、アカウントの作成時に選択したパスワードです。
     
     ![](images/pt_BR-oci-signin.png " ")
     
-4.  Sie sind jetzt bei Oracle Cloud angemeldet.
+4.  Oracle Cloudにログオンしました。
     
     ![](images/pt_BR-oci-console-home-page.png " ")
     
 
-Sie können jetzt [mit der nächsten Übung fortfahren](#next).
+これで、[次のラボに進む](#next)ことができます。
 
-## **Diesen Workshop bewerten**
+## **このワークショップの評価**
 
-Wenn Sie fertig sind, bewerten Sie diesen Workshop! Wir sind auf Ihr Feedback angewiesen, um LiveLabs Katalogverbesserungen und -verbesserungen vorzunehmen. Führen Sie die folgenden Schritte aus, um Ihre Notiz zu senden.
+終了したら、必ずこのワークショップを評価してください。LiveLabsカタログの改善と改良に役立つフィードバックを頼りにしています。次のステップに従ってノートを送信します。
 
-1.  Kehren Sie in Ihrem Workshop zum **Homepage-Workshop** unter LiveLabs zurück, und klicken Sie auf die Schaltfläche "Launch".
+1.  ワークショップを通じてLiveLabsの**ホームページ・ワークショップ**に戻り、「Launch」ボタンをクリックします。
     
-2.  Klicken Sie auf die **Schaltfläche "Braun"**, um erneut auf den Workshop zuzugreifen
+2.  **「Brown」ボタン**をクリックして、ワークショップに再アクセスします。
     
     ![](images/pt_BR-workshop-homepage-2.png " ")
     
-3.  Klicken Sie auf **Diesen Workshop bewerten**.
+3.  **「このワークショップの評価」**をクリックします
     
     ![](images/pt_BR-rate-this-workshop.png " ")
     
 
-## **Vielen Dank**
+## **ありがとうございます**
 
-*   **Erstellt von/Datum** - Anoosha Pilli, Produktmanager, Februar 2021
-*   **pt\_BR übersetzt von** - André Ambrósio, April 2021
-*   **Zuletzt aktualisiert von** - André Ambrósio, Mai 2021
+*   **作成者/日付** - Anoosha Pilli、プロダクト・マネージャー、2021年2月
+*   **pt\_BR翻訳者** -André Ambrósio、 April 2021
+*   **最終更新者** -André Ambrósio、 May 2021
