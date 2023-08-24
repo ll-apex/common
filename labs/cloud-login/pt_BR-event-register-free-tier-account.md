@@ -1,101 +1,101 @@
-# Get Started
+# Introducción
 
-## Introduction
+## Introducción
 
-First of all, you'll need an Oracle Cloud account. This five-minute lab will guide you through the steps so you can get an account in Oracle Cloud Free Mode and how to join it.
+En primer lugar, necesitará una cuenta de Oracle Cloud. Este laboratorio de cinco minutos le guiará por los pasos para obtener una cuenta en el modo gratuito de Oracle Cloud y cómo unirse a ella.
 
-Watch this video to create your 30-day Free Trial account on Oracle Cloud.[](youtube:nClCXAfqvzs)
+Vea este vídeo para crear su cuenta de prueba gratuita de 30 días en Oracle Cloud.[](youtube:nClCXAfqvzs)
 
-### Existing Cloud Accounts
+### Cuentas de Nube Existentes
 
-If you already have access to an Oracle Cloud account, including an Oracle Cloud account that uses [Oracle Universal Credits](https://docs.oracle.com/en/cloud/get-started/subscriptions-cloud/csgsg/universal-credits.html), proceed to **PASSO 2** to sign in to your Cloud Tenancy.
+Si ya tiene acceso a una cuenta de Oracle Cloud, incluida una cuenta de Oracle Cloud que utilice [Créditos universales de Oracle](https://docs.oracle.com/en/cloud/get-started/subscriptions-cloud/csgsg/universal-credits.html), continúe con **PASSO 2** para conectarse a su arrendamiento en la nube.
 
-### Two Cloud-On-One Offerings
+### Dos ofertas en la nube
 
-Oracle Cloud Free Mode allows you to sign up for an Oracle Cloud account that provides a number of Always Free services and a Free Trial with $300 in free credit for use across all eligible Oracle Cloud services for up to 30 days. Always Free services are available indefinitely. Free Trial services can be used until your $300 in free credits are consumed or 30 days expire, whichever comes first.
+El modo gratuito de Oracle Cloud le permite registrarse para obtener una cuenta de Oracle Cloud que proporcione una serie de servicios Siempre gratis y una prueba gratuita con un crédito de 300 $ en créditos gratuitos para utilizarlos en todos los servicios de Oracle Cloud elegibles durante un máximo de 30 días. Los servicios Siempre gratis están disponibles indefinidamente. Los servicios de prueba gratuita se pueden utilizar hasta que se consuman $300 en créditos gratuitos o hasta que caducan 30 días, lo que ocurra primero.
 
-### What you'll need
+### Qué necesitarás
 
-*   A valid email address
-*   Possibility to receive an SMS verification text (only if your email is not recognized)
+*   Una dirección de correo electrónico válida
+*   Posibilidad de recibir un texto de verificación de SMS (sólo si no se reconoce su correo electrónico)
 
-## **SAVE 1**: Create Your Free Trial Account
+## **SAVE 1**: Cree su cuenta de prueba gratuita
 
-If you already have a Cloud account, please proceed to **SOP 2**.
+Si ya tiene una cuenta en la nube, continúe con **SOP 2**.
 
-1.  Open a web browser to access the Oracle cloud registration form at [oracle.com/cloud/free](https://myservices.us.oraclecloud.com/mycloud/signup?language=pt_BR).
+1.  Abra un explorador web para acceder al formulario de registro en la nube de Oracle en [oracle.com/cloud/free](https://myservices.us.oraclecloud.com/mycloud/signup?language=pt_BR).
     
-2.  The registration page appears for you. ![](images/pt_BR-cloud-infrastructure.png " ")
+2.  Aparece la página de registro. ![](images/pt_BR-cloud-infrastructure.png " ")
     
-3.  Enter the following information to create your Oracle Cloud Free Mode account.
+3.  Introduzca la siguiente información para crear su cuenta en modo gratuito de Oracle Cloud.
     
-    *   Choose your **Country**
-    *   Enter your **Name** and **Email**.
-4.  After you have entered a valid email address, select the **Check my email** button. You will see a dialog box written **Special Oracle Offer** in it, click **Select Offer**.
+    *   Seleccione su **país**
+    *   Introduzca el **Nombre** y el **Correo electrónico**.
+4.  Después de introducir una dirección de correo electrónico válida, seleccione el botón **Comprobar mi correo electrónico**. Verá un cuadro de diálogo escrito en él **Oferta especial de Oracle**, haga clic en **Seleccionar oferta**.
     
     ![](images/pt_BR-offer.png " ")
     
-5.  Enter the information below to create your Oracle Cloud Free Mode account. \* Choose your **Password** \* Enter your **Company Name** \* **Cloud Account Name** will be automatically generated based on the data that was entered, but you can change it. Remember your choice; you'll need to know it in order to join the account in the future. \* Choose **Home Region**. Your Home Region cannot be changed after registration. Note: According to the current workshop design and feature availability, it is recommended that you do not use the London region at this time. \* Click **Continue**
+5.  Introduzca la siguiente información para crear su cuenta en modo gratuito de Oracle Cloud. \* Seleccione su **contraseña** \* Introduzca su **nombre de la compañía** \* El **nombre de la cuenta en la nube** se generará automáticamente en función de los datos que se introdujeron, pero puede cambiarlo. Recuerde su elección; deberá conocerla para poder unirse a la cuenta en el futuro. \* Seleccione **Región principal**. La región principal no se puede cambiar después del registro. Nota: Según el diseño actual del taller y la disponibilidad de funciones, se recomienda que no utilice la región de Londres en este momento. \* Haga clic en **Continuar**
     
     ![](images/pt_BR-account-info.png " ")
     
-6.  Enter your address. Click **Continue**.
+6.  Introduzca su dirección. Haga clic en **Continuar**.
     
     ![](images/pt_BR-free-tier-address.png " ")
     
-7.  Choose your country and enter your mobile number.
+7.  Elige tu país e introduce tu número de teléfono móvil.
     
     ![](images/pt_BR-free-tier-address-2.png " ")
     
-8.  Review and accept the term by clicking the check box. Click the **Start my free trial** button.
+8.  Revise y acepte el término haciendo clic en la casilla de control. Haga clic en el botón **Iniciar prueba gratuita**.
     
     ![](images/pt_BR-free-tier-agreement.png " ")
     
-9.  Your account is provisioning and will be available in a few seconds! Once you've finished, you'll be automatically taken to the sign-in page. You'll also receive two emails from Oracle. A notifying of account provisioning. The other notifying the termination of the process. Here's a copy of the final notification:
+9.  Su cuenta está aprovisionando y estará disponible en unos segundos. Cuando haya terminado, accederá automáticamente a la página de conexión. También recibirá dos correos electrónicos de Oracle. Notificación de aprovisionamiento de cuenta. La otra notifica la finalización del proceso. A continuación se muestra una copia de la notificación final:
     
     ![](images/pt_BR-account-provisioned.png " ")
     
 
-## **SAVE 2**: Access Your Account
+## **SAVE 2**: Acceso a su cuenta
 
-If you logged out of Oracle Cloud, follow the steps below to connect back.
+Si se desconectó de Oracle Cloud, siga los pasos a continuación para volver a conectarse.
 
-1.  Go to [cloud.oracle.com](https://cloud.oracle.com) and enter your Cloud Account Name, then click **Next**. This is the name you have chosen when creating your account previously. This is NOT your email address. If you forgot that name, check the confirmation email.
+1.  Vaya a [cloud.oracle.com](https://cloud.oracle.com) e introduzca su nombre de cuenta en la nube y, a continuación, haga clic en **Siguiente**. Este es el nombre que ha elegido al crear su cuenta anteriormente. Esta NO es su dirección de correo electrónico. Si olvidó ese nombre, compruebe el correo electrónico de confirmación.
     
     ![](images/pt_BR-cloud-oracle.png " ")
     
-2.  Click the arrow below _"Oracle Cloud Infrastructure Direct Sign-In"_ to expand and reveal the fields.
+2.  Haga clic en la flecha debajo de _"Inicio de sesión directo de Oracle Cloud Infrastructure"_ para ampliar y mostrar los campos.
     
     ![](images/pt_BR-cloud-login-tenant.png " ")
     
-3.  Enter your Cloud Account credentials and click **Sign In**. Your user is your email address. The password is the one you chose when creating the account.
+3.  Introduzca sus credenciales de cuenta de Cloud y haga clic en **Conectar**. Tu usuario es tu dirección de correo. La contraseña es la que eligió al crear la cuenta.
     
     ![](images/pt_BR-oci-signin.png " ")
     
-4.  You are now logged on to Oracle Cloud!
+4.  Ya está conectado a Oracle Cloud.
     
     ![](images/pt_BR-oci-console-home-page.png " ")
     
 
-You can now [proceed to the next lab](#next).
+Ahora puede [pasar a la siguiente práctica](#next).
 
-## **Rate This Workshop**
+## **Calificar este taller**
 
-Once you've finished, be sure to rate this workshop! We depend on your feedback to help us make LiveLabs catalog improvements and refinements. Follow the steps below to send your note.
+Una vez que haya terminado, asegúrese de evaluar este taller! Dependemos de sus comentarios para ayudarnos a realizar mejoras y acotaciones en el catálogo LiveLabs. Siga los pasos a continuación para enviar su nota.
 
-1.  Go back to the **homepage workshop** at LiveLabs through your workshop and click the Launch button.
+1.  Vuelva al **taller de página inicial** en LiveLabs a través del taller y haga clic en el botón Iniciar.
     
-2.  Click the **Brown Button** to re-access the workshop
+2.  Haga clic en el **botón marrón** para volver a acceder al taller.
     
     ![](images/pt_BR-workshop-homepage-2.png " ")
     
-3.  Click **Rate this workshop**
+3.  Haga clic en **Calificar este taller**
     
     ![](images/pt_BR-rate-this-workshop.png " ")
     
 
-## **Thanks**
+## **Gracias**
 
-*   **Created By/Date** - Anoosha Pilli, Product Manager, February 2021
-*   **pt\_BR Translated by** - André Ambrósio, April 2021
-*   **Last Updated By** - André Ambrósio, May 2021
+*   **Creado por/fecha**: Anoosha Pilli, mánager de productos, febrero de 2021
+*   **pt\_BR Traducido por** - André Ambrósio, abril de 2021
+*   **Última actualización de**: André Ambrósio, mayo de 2021
