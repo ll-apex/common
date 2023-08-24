@@ -1,102 +1,102 @@
-# 開始
+# 开始
 
-## 概要
+## 简介
 
-まず、Oracle Cloudアカウントが必要です。この5分間のラボでは、Oracle Cloud無料モードでのアカウントと、その参加方法をご紹介します。
+首先，您需要一个 Oracle Cloud 账户。此实验室五分钟指导您完成相关步骤，以便您可以在 Oracle Cloud 免费模式下获取账户以及如何加入。
 
-### 既存のクラウド・アカウント
+### 现有云帐户
 
-[Oracle Universal Credits](https://docs.oracle.com/en/cloud/get-started/subscriptions-cloud/csgsg/universal-credits.html)を使用するOracle Cloudアカウントを含むOracle Cloudアカウントへのアクセス権がすでにある場合は、**PASSO 2**に進み、クラウド・テナンシにサインインします。
+如果您已经有权访问 Oracle Cloud 账户（包括使用 [Oracle 通用储值](https://docs.oracle.com/en/cloud/get-started/subscriptions-cloud/csgsg/universal-credits.html)的 Oracle Cloud 账户），请转至 **PASSO 2** 登录到您的云租户。
 
-### 2つのCloud-On-One製品
+### 两个云一体化产品
 
-Oracle Cloud無料モードでは、Oracle Cloudアカウントにサインアップできます。Oracle Cloudアカウントでは、いくつかのAlways Freeサービスと、適格なすべてのOracle Cloudサービスで最大30日間使用できる300ドルの無料トライアルが提供されます。Always Freeサービスは無期限に利用できます。無料トライアル・サービスは、300ドルの無料クレジットが消費されるまで、または30日間の有効期限(いずれか早い方)まで使用できます。
+使用 Oracle Cloud 免费模式，您可以注册 Oracle Cloud 账户，该账户提供许多“始终免费”服务和免费试用，免费储值 $300，可在所有符合条件的 Oracle Cloud 服务中使用最多 30 天。始终免费服务无限期提供。免费试用服务可在免费储值中使用 300 美元或 30 天到期（以先到者为准）之前使用。
 
 ![](images/pt_BR-freetrial.png " ")
 
-### 前提条件
+### 你需要什么
 
-*   有効な電子メール・アドレス
-*   SMS検証テキストを受信できる可能性(電子メールが認識されない場合のみ)
+*   有效的电子邮件地址
+*   接收短信验证文本的可能性（仅当无法识别您的电子邮件时）
 
-## **SAVE 1**: 無料トライアル・アカウントの作成
+## **SAVE 1** ：创建您的免费试用账户
 
-クラウド・アカウントをすでにお持ちの場合は、**SOP 2**に進んでください。
+如果您已有 Cloud 账户，请转到 **SOP 2** 。
 
-1.  Webブラウザを開き、[oracle.com/cloud/free](https://myservices.us.oraclecloud.com/mycloud/signup?language=pt_BR)にあるOracleクラウド登録フォームにアクセスします。
+1.  打开 Web 浏览器，访问 [oracle.com/cloud/free](https://myservices.us.oraclecloud.com/mycloud/signup?language=pt_BR) 上的 Oracle 云注册表单。
     
-2.  登録ページが表示されます。 ![](images/pt_BR-cloud-infrastructure.png " ")
+2.  将为您显示注册页。 ![](images/pt_BR-cloud-infrastructure.png " ")
     
-3.  次の情報を入力して、Oracle Cloud無料モード・アカウントを作成します。
+3.  输入以下信息以创建 Oracle Cloud 免费模式账户。
     
-    *   **「国」**を選択します
-    *   **「名前」**および**「電子メール」**を入力します。
-4.  有効な電子メール・アドレスを入力したら、**「電子メールの確認」**ボタンを選択します。ボタンを選択すると、次の画面が表示されます。 ![](images/pt_BR-verify-email.png " ")
+    *   选择您的**国家/地区**
+    *   输入**名称**和**电子邮件**。
+4.  输入有效的电子邮件地址后，选择**检查我的电子邮件**按钮。选择按钮后，将显示以下屏幕： ![](images/pt_BR-verify-email.png " ")
     
-5.  電子メールに移動します。Oracleから受信ボックスでアカウントを検証するための電子メールが届きます。電子メールは次のようになります。 ![](images/pt_BR-verification-mail.png " ")
+5.  转到您的电子邮件。您会收到 Oracle 的电子邮件，用于在收件箱中验证您的账户。电子邮件将类似于以下内容： ![](images/pt_BR-verification-mail.png " ")
     
-6.  リンク(可能な場合)をクリックするか、リンクをコピーしてブラウザに貼り付けます。
+6.  单击链接（如果可能），或者将链接复制并粘贴到浏览器中。
     
-7.  Oracle Cloudフリー・モード・アカウントを作成するには、次の情報を入力します。\* **パスワード**を選択します\* **会社名**を入力します\* **クラウド・アカウント名**は、入力したデータに基づいて自動的に生成されますが、変更できます。選択したことを覚えておいてください。今後アカウントに参加するためには知っておく必要があります。\* **ホーム・リージョン**を選択してください。登録後はホーム・リージョンを変更できません。ノート: 現在のワークショップの設計および機能の可用性に従って、現時点ではロンドン・リージョンを使用しないことをお薦めします。\* **「続行」**をクリックします ![](images/pt_BR-account-info.png " ")
+7.  输入以下信息以创建您的 Oracle Cloud 免费模式账户。\* 选择您的**密码** \* 输入您的**公司名称** \* 将根据输入的数据自动生成**云账户名称**，但您可以对其进行更改。请记住您的选择；为了在将来加入账户，您需要知道它。\* 选择**主页区域**。注册后无法更改您的主区域。注：根据当前研讨会的设计和功能可用性，建议此时不要使用伦敦区域。\* 单击**继续** ![](images/pt_BR-account-info.png " ")
     
-8.  住所を入力します。**「Continue」**をクリックします。 ![](images/pt_BR-free-tier-address.png " ")
+8.  输入地址。单击**继续**。 ![](images/pt_BR-free-tier-address.png " ")
     
-9.  国を選択し、検証するモバイル番号を入力します。**「テキストでコードを入力」**ボタンをクリックします。
+9.  选择您的国家/地区并输入用于验证的移动电话号码。单击**向我显示代码**按钮。
     
     ![](images/pt_BR-free-tier-address-2.png " ")
     
-10.  コードを受信したら、コードを入力して**「マイ・コードの検証」**をクリックします。![](images/pt_BR-free-tier-address-4.png " ")//edit
+10.  收到代码后，键入代码并单击**验证我的代码**。![](images/pt_BR-free-tier-address-4.png " ")//edit
     
-11.  **「支払検証方法の追加」**ボタンをクリックします。![](images/pt_BR-free-tier-payment-1.png " ") //編集
+11.  单击**添加付款验证方式**按钮。![](images/pt_BR-free-tier-payment-1.png " ") //edit
     
-12.  Escolha o método de verificação. Neste caso, clique no botão **Credit Card**. Digite as informações de pagamento. _Nota: Esta é uma conta promocional com créditos gratuitos. Você não será cobrado a não ser que escolha fazer o upgrade da conta_. ![](images/pt_BR-free-tier-payment-2.png " ")//editar
+12.  选择验证方法。在这种情况下，请单击**信用卡**按钮。输入付款信息。_注意：这是具有免费储值的促销账户。除非您选择升级账户_，否则不会向您收费。![](images/pt_BR-free-tier-payment-2.png " ")//edit
     
-13.  支払検証が確定したら、チェック・ボックスをクリックして条件を確認して受け入れます。「**無料トライアルを開始**」ボタンをクリックします。 ![](images/pt_BR-free-tier-agreement.png " ")
+13.  完成付款验证后，通过单击复选框检查并接受条款。单击**启动我的免费试用**按钮。 ![](images/pt_BR-free-tier-agreement.png " ")
     
-14.  アカウントがプロビジョニングされており、数秒で利用可能になります。終了すると、自動的にサインイン・ページが表示されます。また、Oracleから2通の電子メールを受信します。アカウント・プロビジョニングの通知。プロセスの終了を通知するもう1つ。最終通知のコピーを次に示します。 ![](images/pt_BR-account-provisioned.png " ")
+14.  您的账户正在预配，并且将在几秒钟内可用！完成后，您将自动进入登录页面。您还将收到 Oracle 发来的两封电子邮件。账户预配的通知。另一通知流程终止的通知。下面是最终通知的副本： ![](images/pt_BR-account-provisioned.png " ")
     
 
-## **保存2**: アカウントへのアクセス
+## **SAVE 2** ：访问您的账户
 
-Oracle Cloudからログアウトした場合は、次のステップに従って接続し直します。
+如果您从 Oracle Cloud 注销，请按照下面的步骤重新连接。
 
-1.  [cloud.oracle.com](https://cloud.oracle.com)に移動し、クラウド・アカウント名を入力して、**「次」**をクリックします。これは、以前にアカウントを作成したときに選択した名前です。これはあなたのメールアドレスではありません。その名前を忘れた場合は、確認の電子メールを確認してください。
+1.  转到 [cloud.oracle.com](https://cloud.oracle.com) 并输入您的 Cloud 账户名称，然后单击**下一步**。这是您在以前创建账户时选择的名称。这不是您的电子邮件地址。如果忘记该名称，请检查确认电子邮件。
     
     ![](images/pt_BR-cloud-oracle.png " ")
     
-2.  _「Oracle Cloud Infrastructure直接サインイン」_の下にある矢印をクリックして、フィールドを展開して表示します。
+2.  单击 _Oracle Cloud Infrastructure Direct Sign-In_ 下方的箭头可展开和显示字段。
     
     ![](images/pt_BR-cloud-login-tenant.png " ")
     
-3.  クラウド・アカウントの資格証明を入力し、**「サインイン」**をクリックします。あなたのユーザーはあなたのメールアドレスです。パスワードは、アカウントの作成時に選択したパスワードです。
+3.  输入 Cloud 账户身份证明并单击**登录**。您的用户是您的电子邮件地址。密码是您在创建账户时选择的密码。
     
     ![](images/pt_BR-oci-signin.png " ")
     
-4.  Oracle Cloudにログオンしました。
+4.  您现在已登录到 Oracle Cloud！
     
     ![](images/pt_BR-oci-console-home-page.png " ")
     
 
-これで、[次のラボに進む](#next)ことができます。
+您现在可以[进入下一个实验室](#next)。
 
-## **このワークショップの評価**
+## **对此研讨会进行评价**
 
-終了したら、必ずこのワークショップを評価してください。LiveLabsカタログの改善と改良に役立つフィードバックを頼りにしています。次のステップに従ってノートを送信します。
+完成后，请务必对本研讨会进行评级！我们依赖您的反馈来帮助我们改进 LiveLabs 目录和改进。按照以下步骤发送您的说明。
 
-1.  ワークショップを通じてLiveLabsの**ホームページ・ワークショップ**でGVolteを行い、「Launch」ボタンをクリックします。
+1.  GVolte 在 LiveLabs 上的**主页研讨会**中，通过研习会单击“启动”按钮。
     
-2.  **「Brown」ボタン**をクリックして、ワークショップに再アクセスします。
+2.  单击**棕色按钮**以重新访问研讨会
     
     ![](images/pt_BR-workshop-homepage-2.png " ")
     
-3.  **「このワークショップの評価」**をクリックします
+3.  单击**对本研讨会进行评级**
     
     ![](images/pt_BR-rate-this-workshop.png " ")
     
 
-## **ありがとうございます**
+## **感谢**
 
-*   **作成者/日付** - Kay Malcolm、Database Product Management、2020年3月
-*   **貢献者** - John Peach、Kamryn Vinson、Rene Fontcha
-*   **pt\_BR翻訳者** -André Ambrósio、 April 2021
-*   **最終更新者** -André Ambrósio、 May 2021
+*   **创建者/日期** - 数据库产品管理 Kay Malcolm，2020 年 3 月
+*   **贡献者** - John Peach、Kamryn Vinson、Rene Fontcha
+*   **pt\_BR 翻译者** - André Ambrósio，2021 年 4 月
+*   **上次更新者** - André Ambrósio，2021 年 5 月
