@@ -1,102 +1,102 @@
-# 開始使用
+# 시작하기
 
-## 簡介
+## 소개
 
-首先，您需要一個 Oracle Cloud 帳戶。這個 5 分鐘的實驗室會引導您完成相關步驟，以便在 Oracle Cloud 免費模式取得帳戶和加入帳戶。
+우선 Oracle Cloud 계정이 필요합니다. 이 5분 분량의 실습을 통해 Oracle Cloud 무료 모드에서 계정을 받고 참여하는 방법을 안내할 수 있습니다.
 
-### 現有的雲端帳戶
+### 기존 클라우드 계정
 
-如果您已經可以存取 Oracle Cloud 帳戶 (包括使用 [Oracle Universal Credits](https://docs.oracle.com/en/cloud/get-started/subscriptions-cloud/csgsg/universal-credits.html) 的 Oracle Cloud 帳戶)，請前往 **PASSO 2** 登入您的雲端租用戶。
+[Oracle Universal Credits](https://docs.oracle.com/en/cloud/get-started/subscriptions-cloud/csgsg/universal-credits.html)를 사용하는 Oracle Cloud 계정을 포함하여 Oracle Cloud 계정에 이미 액세스할 수 있는 경우 **PASSO 2**로 이동하여 클라우드 테넌시에 사인인하십시오.
 
-### 兩個 Cloud-On-One 方案
+### 두 가지 Cloud-On-One 오퍼링
 
-Oracle Cloud 免費模式讓您註冊 Oracle Cloud 帳戶，該帳戶提供多項永久免費服務和免費試用版，價值 $300 美元的免費點數，可在所有適用的 Oracle Cloud 服務使用，有效期限長達 30 天。Always Free 服務可無限期使用。免費試用服務可用於 300 美元的免費點數用完或 30 天到期，以先到者為準。
+Oracle Cloud 무료 모드를 사용하면 최대 30일 동안 모든 적격 Oracle Cloud 서비스에서 사용할 수 있는 300달러의 무료 크레딧이 제공되는 다양한 상시 무료 서비스와 무료 체험판을 제공하는 Oracle Cloud 계정에 등록할 수 있습니다. 항상 무료 서비스는 무기한 사용할 수 있습니다. 무료 체험판 서비스는 무료 크레딧 $300가 소진되거나 30일이 만료될 때까지 사용할 수 있습니다(둘 중 더 빠른 시점).
 
 ![](images/pt_BR-freetrial.png " ")
 
-### 您需要什麼
+### 필요한 기능
 
-*   有效的電子郵件地址
-*   可以接收 SMS 驗證文字 (只有在無法辨識您的電子郵件時)
+*   적합한 전자메일 주소
+*   SMS 확인 텍스트 수신 가능(전자메일이 인식되지 않은 경우에만)
 
-## **儲存 1** ：建立免費試用帳戶
+## **SAVE 1**: 무료 체험판 계정 생성
 
-如果您已經有雲端帳戶，請前往 **SOP 2** 。
+이미 클라우드 계정이 있는 경우 **SOP 2**로 이동하십시오.
 
-1.  開啟 Web 瀏覽器，存取 Oracle 雲端登錄表格，網址為：[oracle.com/cloud/free](https://myservices.us.oraclecloud.com/mycloud/signup?language=pt_BR) 。
+1.  웹 브라우저를 열어 [oracle.com/cloud/free](https://myservices.us.oraclecloud.com/mycloud/signup?language=pt_BR)에서 Oracle 클라우드 등록 양식에 액세스하십시오.
     
-2.  就會顯示您的註冊頁面。 ![](images/pt_BR-cloud-infrastructure.png " ")
+2.  등록 페이지가 나타납니다. ![](images/pt_BR-cloud-infrastructure.png " ")
     
-3.  請輸入下列資訊，以建立您的 Oracle Cloud 免費模式帳戶。
+3.  다음 정보를 입력하여 Oracle Cloud 자유 모드 계정을 생성합니다.
     
-    *   選擇您的**國家 / 地區**
-    *   輸入您的**名稱**和**電子郵件**。
-4.  輸入有效的電子郵件地址之後，請選取**檢查我的電子郵件**按鈕。下列畫面會在您選取按鈕後顯示： ![](images/pt_BR-verify-email.png " ")
+    *   **국가** 선택
+    *   **이름** 및 **전자메일**을 입력합니다.
+4.  적합한 전자메일 주소를 입력한 후 **내 전자메일 확인** 단추를 선택합니다. 버튼을 선택하면 다음 화면이 나타납니다. ![](images/pt_BR-verify-email.png " ")
     
-5.  前往您的電子郵件地址。您將會收到一封來自 Oracle 的電子郵件，驗證您的收件匣帳戶。電子郵件將與下列類似： ![](images/pt_BR-verification-mail.png " ")
+5.  이메일 주소로 이동하세요. Oracle의 이메일을 통해 받은 편지함에서 계정을 검증할 수 있습니다. 전자메일은 다음과 유사합니다. ![](images/pt_BR-verification-mail.png " ")
     
-6.  按一下連結 (如果可能) 或複製連結並將其貼到您的瀏覽器中。
+6.  가능한 경우 링크를 클릭하거나 링크를 복사하여 브라우저에 붙여 넣습니다.
     
-7.  請在下方輸入資訊以建立您的 Oracle Cloud 免費模式帳戶。\* 選擇**密碼** \* 輸入您的**公司名稱** \* **雲端帳戶名稱**將會根據輸入的資料自動產生，但您可以進行變更。請記住您的選擇；您需要知道它以便日後加入帳戶。\* 選擇**主要區域**。您的「主要區域」註冊後即無法變更。注意：根據當前的研討會設計及功能可用性，建議您目前不要使用倫敦地區。\* 按一下**繼續** ![](images/pt_BR-account-info.png " ")
+7.  Oracle Cloud 무료 모드 계정을 생성하려면 아래 정보를 입력하십시오. \* **비밀번호**를 선택합니다. \* **회사 이름**을 입력합니다. \* **클라우드 계정 이름**은 입력된 데이터에 따라 자동으로 생성되지만 변경할 수 있습니다. 선택 사항을 기억하세요. 계정에 나중에 참여하려면 반드시 알아야 합니다. \* **홈 지역**을 선택하세요. 등록 후에는 홈 영역을 변경할 수 없습니다. 참고: 현재 워크샵 설계 및 기능 가용성에 따라 현재 런던 지역을 사용하지 않는 것이 좋습니다. \* **계속**을 누르십시오. ![](images/pt_BR-account-info.png " ")
     
-8.  輸入地址。按一下**繼續 (Continue)** 。 ![](images/pt_BR-free-tier-address.png " ")
+8.  주소를 입력하십시오. **계속**을 누릅니다. ![](images/pt_BR-free-tier-address.png " ")
     
-9.  選擇您的國家 / 地區並輸入行動電話號碼進行驗證。按一下**輸入程式碼文字**按鈕。
+9.  국가를 선택하고 확인을 위해 이동 전화번호를 입력하십시오. **코드 텍스트** 단추를 누릅니다.
     
     ![](images/pt_BR-free-tier-address-2.png " ")
     
-10.  收到程式碼之後，請輸入該程式碼，然後按一下**驗證我的程式碼**。![](images/pt_BR-free-tier-address-4.png " ")//edit
+10.  코드를 받으면 입력하고 **내 코드 확인**을 누릅니다. ![](images/pt_BR-free-tier-address-4.png " ")//edit
     
-11.  按一下**新增付款驗證方法**按鈕。![](images/pt_BR-free-tier-payment-1.png " ") // 編輯
+11.  **지불 검증 방법 추가** 버튼을 누릅니다. ![](images/pt_BR-free-tier-payment-1.png " ") //edit
     
-12.  選擇驗證方法。在此情況下，請按一下**信用卡**按鈕。輸入支付資訊。_備註：這是具有免費點數的促銷帳戶。除非您選擇升級帳戶，否則系統將不會向您收取費用_。![](images/pt_BR-free-tier-payment-2.png " ")//edit
+12.  Escolha o método de verificação. Neste caso, clique no botão **Credit Card**. Digite as informações de pagamento. _Nota: Esta é uma conta promocional com créditos gratuitos. Você não será cobrado a não ser que escolha fazer o upgrade da conta_. ![](images/pt_BR-free-tier-payment-2.png " ")//editar
     
-13.  付款驗證完成後，請按一下核取方塊以複查並接受條款。按一下**開始免費試用**按鈕。 ![](images/pt_BR-free-tier-agreement.png " ")
+13.  결제 확인이 완료되면 확인란을 클릭하여 조건을 검토하고 승인합니다. **Start my Free Trial** 버튼을 누릅니다. ![](images/pt_BR-free-tier-agreement.png " ")
     
-14.  您的帳戶正在佈建中，而且很快就會提供！完成之後，系統會自動將您帶往登入頁面。您也會收到 Oracle 寄送的兩封電子郵件。通知帳戶佈建。另一個通知處理程序終止。以下是最終通知的副本： ![](images/pt_BR-account-provisioned.png " ")
+14.  계정이 프로비전되고 있으며 몇 초 후에 사용할 수 있습니다! 완료한 후에는 자동으로 사인인 페이지로 이동됩니다. 또한 Oracle로부터 두 개의 이메일을 받게 됩니다. 계정 프로비저닝에 대한 통지입니다. 다른 하나는 프로세스 종료를 알리는 것입니다. 다음은 최종 통지의 복사본입니다. ![](images/pt_BR-account-provisioned.png " ")
     
 
-## **儲存 2** ：存取您的帳戶
+## **SAVE 2**: 계정에 액세스
 
-如果您登出 Oracle Cloud，請依照下列步驟重新連線。
+Oracle Cloud에서 로그아웃한 경우 아래 단계에 따라 다시 연결하십시오.
 
-1.  請前往 [cloud.oracle.com](https://cloud.oracle.com) 並輸入雲端帳戶名稱，然後按**下一步**。這是您在先前建立帳戶時所選擇的名稱。這不是您的電子郵件地址。如果您忘記該名稱，請檢查確認電子郵件。
+1.  [cloud.oracle.com](https://cloud.oracle.com)으로 이동하여 클라우드 계정 이름을 입력한 후 **다음**을 누릅니다. 이전에 계정을 생성할 때 선택한 이름입니다. 전자메일 주소가 아닙니다. 해당 이름을 잊어버린 경우 확인 전자 메일을 확인하십시오.
     
     ![](images/pt_BR-cloud-oracle.png " ")
     
-2.  按一下 _Oracle Cloud Infrastructure Direct Sign-In_ 下的箭頭，即可展開及顯示欄位。
+2.  _"Oracle Cloud Infrastructure 직접 사인인"_ 아래의 화살표를 눌러 필드를 확장하고 표시합니다.
     
     ![](images/pt_BR-cloud-login-tenant.png " ")
     
-3.  輸入您的雲端帳戶證明資料，然後按一下**登入**。您的使用者即為您的電子郵件地址。密碼是您在建立帳戶時所選擇的密碼。
+3.  클라우드 계정 인증서를 입력하고 **사인인**을 누릅니다. 사용자가 전자메일 주소입니다. 비밀번호는 계정을 생성할 때 선택한 비밀번호입니다.
     
     ![](images/pt_BR-oci-signin.png " ")
     
-4.  您已登入 Oracle Cloud！
+4.  이제 Oracle Cloud에 로그온되었습니다!
     
     ![](images/pt_BR-oci-console-home-page.png " ")
     
 
-您現在可以[進入下一個實驗室](#next)。
+이제 [다음 실습으로 진행](#next)할 수 있습니다.
 
-## **為此工作坊評分**
+## **이 워크샵 평가**
 
-完成後，請務必為此研討會評分！我們取決於您的意見，以協助我們改善 LiveLabs 目錄及改善內容。請依照下列步驟傳送您的備註。
+완료했으면 이 워크샵을 평가하십시오! LiveLabs 카탈로그 개선 및 개선에 도움을 주기 위해 귀하의 피드백에 의존합니다. 메모를 보내려면 아래 단계를 따르십시오.
 
-1.  GVolte 適用於**首頁研討會**，透過您的講座前往 LiveLabs，然後按一下「啟動」按鈕。
+1.  GVolte(워크샵을 통해 LiveLabs에 있는 **홈페이지 워크샵**의 경우)에서 Launch(실행) 버튼을 누릅니다.
     
-2.  按一下**棕色按鈕**以重新存取研討會
+2.  **갈색 단추**를 눌러 워크샵에 다시 액세스합니다.
     
     ![](images/pt_BR-workshop-homepage-2.png " ")
     
-3.  按一下**為此研討會評分**
+3.  **이 워크샵 평가**를 누릅니다.
     
     ![](images/pt_BR-rate-this-workshop.png " ")
     
 
-## **感謝**
+## **감사합니다.**
 
-*   **建立者 / 日期** - 資料庫產品管理 Kay Malcolm，2020 年 3 月
-*   **貢獻者** - John Peach，Kamryn Vinson，Rene Fontcha
-*   **pt\_BR 翻譯者** - André Ambrósio，2021 年 4 月
-*   **上次更新者** - André Ambrósio，2021 年 5 月
+*   **Created By/Date** - Kay Malcolm, Database Product Management, 2020년 3월
+*   **기여자** - John Peach, Kamryn Vinson, Rene Fontcha
+*   **pt\_BR 번역자** - André Ambrósio, 2021년 4월
+*   **최종 업데이트 수행자** - André Ambrósio, 2021년 5월
